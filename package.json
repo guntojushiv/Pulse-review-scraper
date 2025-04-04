@@ -1,0 +1,22 @@
+{
+  "name": "pulse-reviews-scraper",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "A scraper for fetching reviews from G2 and Capterra",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "axios": "^1.8.4",
+    "chalk": "^5.4.1",
+    "cheerio": "^1.0.0",
+    "date-fns": "^4.1.0",
+    "dotenv": "^16.4.7",
+    "jsdom": "^26.0.0",
+    "puppeteer": "^24.6.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "yargs": "^17.7.2"
+  }
+}
