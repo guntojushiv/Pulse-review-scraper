@@ -53,8 +53,3 @@ pulse-review-scraper/
   },
   ...
 ]
-🧩 Technologies Used
-Node.js
-Puppeteer
-Cheerio
-date-fns
