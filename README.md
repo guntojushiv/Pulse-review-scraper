@@ -19,8 +19,8 @@ A Node.js-based web scraper that collects user reviews from SaaS platforms like 
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/guntojushiv/pulse-assignment.git
-cd pulse-assignment
+git clone https://github.com/guntojushiv/pulse-review-scraper.git
+cd pulse-review-scraper
 2. Install Dependencies
 npm install
 3. Run the Scraper
@@ -33,7 +33,7 @@ Option	Description	Example
 --end_date	End date for filtering reviews	--end_date=2023-12-31
 --output	Output JSON file name	--output=g2-hubspot.json
 📁 Folder Structure
-pulse-assignment/
+pulse-review-scraper/
 │
 ├── lib/
 │   ├── g2.js            # G2 scraper using Puppeteer
